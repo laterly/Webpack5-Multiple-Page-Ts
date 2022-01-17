@@ -112,7 +112,7 @@ http://127.0.0.1:3000/reactPage.html
 2. 在page.config.js中添加这个页面的信息即可
 
 比如
-```
+``` bash
   {
     name: 'about',
     template: 'about/about.html',
