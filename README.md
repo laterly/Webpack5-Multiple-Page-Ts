@@ -31,7 +31,7 @@ http://127.0.0.1:3000/reactPage.html
 
 
 ### 目录结构
-
+``` bash
 |-- webpack5-multi-ts
     |-- .browserslistrc
     |-- .eslintignore
