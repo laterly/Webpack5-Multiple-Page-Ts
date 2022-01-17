@@ -120,4 +120,8 @@ http://127.0.0.1:3000/reactPage.html
   }
 
 ```
+3.访问规则
+``` bash
+http://127.0.0.1:3000/name.html
+```
 
