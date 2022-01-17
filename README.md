@@ -1,4 +1,4 @@
-## webpack5.0 Multi page
+## Webpack5-Multiple-Page-Ts
 
 ### webpack5+vue+react+typescript+eslint+prettier多页配置，适合开发多页面网站
 
