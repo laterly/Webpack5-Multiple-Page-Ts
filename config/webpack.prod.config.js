@@ -21,7 +21,7 @@ const config = {
         minify: TerserWebpackPlugin.swcMinify,
         extractComments: false, //设为 false 就可以去除所有注释。
         terserOptions: {
-          compress: process.env.IS_DEV ? {} : { pure_funcs: ['console.log'] }, //可以设置我们想要去除的函数，将代码中所有 console.log 去除
+          compress: process.env === 'development' ? {} : { pure_funcs: ['console.log'] }, //可以设置我们想要去除的函数，将代码中所有 console.log 去除
         },
       }),
     ],
@@ -40,7 +40,7 @@ const config = {
         defaultVendors: {
           priority: -10,
           name: 'default-vendors',
-          test: /[\\/]node_modules[\\/](ant-design-vue|xlsx|moment|html2canvas|lodash)[\\/]/,
+          test: /[\\/]node_modules[\\/](vue|react|lodash)[\\/]/,
           chunks: 'all',
           minSize: 0,
           minChunks: 1,

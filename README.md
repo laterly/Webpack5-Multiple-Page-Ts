@@ -108,15 +108,15 @@ http://127.0.0.1:3000/reactPage.html
 
 如果增加新页面，只需两步，不需要改webpack等配置文件
 
-1. 在pages中新增一个文件夹
+1. 在pages中新增一个文件夹，并在这个文件夹里添加入口文件main.ts和模板index.html
 2. 在page.config.js中添加这个页面的信息即可
 
 比如
 ``` bash
   {
     name: 'about',
-    template: 'about/about.html',
-    entry: 'about/about.js'
+    template: 'about/index.html',
+    entry: 'about/main.ts'
   }
 
 ```
