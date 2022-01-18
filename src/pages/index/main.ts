@@ -1,2 +1,2 @@
-// console.log(123);
+import './index.css';
 export const a = 1;
