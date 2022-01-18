@@ -1,10 +1,10 @@
 ## Webpack5-Multiple-Page-Ts
 
-### webpack5+vue+react+typescript+eslint+prettier多页配置，适合开发多页面网站
+### webpack5+vue3+react17+typescript+eslint+prettier多页配置，适合开发多页面网站
 
 ### 目前支持的语法
-- [vue.js!](https://cn.vuejs.org/)
-- [react.js!](https://reactjs.org/)
+- vue3!
+- react17!
 ### Build Setup
 
 ``` bash
